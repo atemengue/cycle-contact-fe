@@ -1,7 +1,6 @@
-import { Container, InputSearchContainer } from "./styles";
+import { Container, InputSearchContainer } from './styles';
 
-import logo from "../../assets/images/logo.svg";
-import ContactList from "../ContactsList";
+import logo from '../../assets/images/logo.svg';
 
 export default function Header() {
   return (
@@ -11,7 +10,6 @@ export default function Header() {
       <InputSearchContainer>
         <input type="text" placeholder="Recherche un contact" />
       </InputSearchContainer>
-      <ContactList />
     </Container>
   );
 }
