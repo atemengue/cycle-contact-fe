@@ -1,6 +1,6 @@
 import {
   Card, Container, Header, ListContainer,
-} from './styles';
+} from '../../pages/Home/styles';
 
 import arrow from '../../assets/images/arrow.svg';
 import trash from '../../assets/images/delete.svg';
