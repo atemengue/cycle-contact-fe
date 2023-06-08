@@ -104,9 +104,7 @@ export const Card = styled.div`
 `;
 
 export const InputSearchContainer = styled.div`
- /* margin-top: 48px; */
   width: 100%;
-
   input {
     width: 100%;
     background: #fff;

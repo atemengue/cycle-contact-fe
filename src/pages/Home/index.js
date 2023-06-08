@@ -8,6 +8,7 @@ import {
 import arrow from '../../assets/images/arrow.svg';
 import trash from '../../assets/images/delete.svg';
 import edit from '../../assets/images/edit.svg';
+import Modal from '../../components/Modal';
 
 function Home() {
   return (
@@ -16,6 +17,8 @@ function Home() {
       <InputSearchContainer>
         <input type="text" placeholder="Recherche un contact" />
       </InputSearchContainer>
+
+      <Modal />
 
       <Header>
         <strong>3 contacts</strong>
